@@ -1,7 +1,7 @@
 xkb_keymap {
 	xkb_keycodes  { include "evdev+aliases(qwerty)"	};
-	xkb_types     { include "complete"	};
+	xkb_types     { include "complete+mytypes(super_level2)"	};
 	xkb_compat    { include "complete"	};
-	xkb_symbols   { include "pc+pl+inet(evdev)"	};
+	xkb_symbols   { include "pc+pl+inet(evdev)+mysymbols(super_arrows_home_end)"	};
 	xkb_geometry  { include "thinkpad(60)"	};
 };
