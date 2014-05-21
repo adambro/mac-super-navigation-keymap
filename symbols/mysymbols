@@ -1,0 +1,11 @@
+partial modifier_keys
+xkb_symbols "super_arrows_home_end" {
+    key <LEFT>  {
+        type[Group1] = "SUPER_LEVEL2",
+        symbols[Group1] = [    Left,   Home      ]
+    };
+    key <RGHT>  {
+        type[Group1] = "SUPER_LEVEL2",
+        symbols[Group1] = [    Right,  End       ]
+    };
+};
